@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  padding: 0px;
+}
+
+.header {
+  background-color: #1e724f88;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.header input {
+  width: 200px;
+  height: 50px;
+  padding: 5px 1px;
+  text-align: center;
+}
+
+/* Movie card */
+.movie-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.movie {
+  background-color: #9aa5a59d;
+  border-radius: 3px;
+  position: relative;
+  margin: 20px;
+  width: 330px;
+  height: 450px;
+}
+.movie img {
+  max-width: 100%;
+}
+.movie-info {
+  padding: 20px;
+}
+.movie-info h2 {
+  font-size: 30px;
+  margin-bottom: 4px;
+}
+
+.addBtn {
+  color: rgba(0, 0, 0, 0.95);
+  text-align: center;
+  font-size: 14px;
+}
+.modal input {
+  width: 240px;
+  height: 32px;
+  text-align: center;
+  padding: 4px 1px;
+  margin: 16px 0;
+}
+.modal label {
+  font-weight: 500;
+  font-size: 16px;
+}
+.modal textarea {
+  text-align: center;
+  padding: 4px 1px;
+  margin: 16px 0;
+}
+.movieDetails {
+  margin: 4% 0;
+}
+
+.movieImg {
+  width: 300px;
+  margin-bottom: 40px;
+}
